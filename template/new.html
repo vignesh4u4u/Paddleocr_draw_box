@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>OCR</title>
+</head>
+<body>
+    <h1 style="background-color: yellow; font-size: 35px; text-align: center;">Extract text from image</h1>
+    <form action="/predict" method="post" enctype="multipart/form-data">
+        <textarea name="fields" placeholder="Enter fields in JSON format"></textarea><br><br>
+        <input type="file" name="image" accept="image/*"/><br><br>
+        <input type="submit" value="Submit"><br><br>
+        <div>
+            Text: <b>{{ data }}</b>
+        </div>
+    </form>
+</body>
+</html>
