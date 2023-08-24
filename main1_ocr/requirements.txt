@@ -1,0 +1,25 @@
+1.python version =3.8
+
+1.python -m pip install paddlepaddle -i https://pypi.tuna.tsinghua.edu.cn/simple
+
+2.pip install paddleocr==2.0.1 (install after -pip install --upgrade paddleocr)
+
+3.pip install pytorch(pip3 install torch torchvision torchaudio) -depends on system requirement-(https://pytorch.org/) 
+
+4.pip install pdf2image
+
+5.pip install easyocr
+
+6.pip install pytesseract
+
+7.pip install Pillow==9.5.0
+
+8.pip install opencv-python
+
+9.pip install flask
+
+10.pip install git+https://github.com/JaidedAI/EasyOCR.git
+
+11. pip3 install -U pypdfium2
+
+pip install PyMuPDF
